@@ -1,0 +1,14 @@
+name: StructuresPlus
+version: '${version}'
+main: com.structuresplus.StructuresPlus
+api-version: '26.3'
+description: Ameliore toutes les structures generees (plus de ressources, plus de details)
+commands:
+  structuresplus:
+    description: Commande admin StructuresPlus
+    usage: /structuresplus <reload|scan [rayon]>
+    aliases: [sp]
+    permission: structuresplus.admin
+permissions:
+  structuresplus.admin:
+    default: op
